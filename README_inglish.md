@@ -32,7 +32,7 @@ Inside the form element, I am required to enter an email in a field with id="ema
 If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
 
 #User Story #7: 
-Inside the form, I can enter a number in a field with id="number".
+Inside the form, I can enter a number (Age) in a field with id="number".
 
 #User Story #8: 
 If I enter non-numbers in the number input, I will see an HTML5 validation error.
