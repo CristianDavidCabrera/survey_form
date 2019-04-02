@@ -44,7 +44,7 @@ If I enter numbers outside the range of the number input, which are defined by t
 For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: 
     - id="name-label" 
     - id="email-label" 
-    - id="number-label"
+    - id="age-label"
 
 #User Story #11: 
 For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.

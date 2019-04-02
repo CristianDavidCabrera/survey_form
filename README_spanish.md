@@ -44,7 +44,7 @@ Si ingreso números fuera del rango de la entrada de números, que están defini
 Para los campos de ingreso de nombre, correo electrónico y número dentro del formulario, puedo ver las etiquetas correspondientes que describen el propósito de cada campo con los siguientes identificadores: 
     - id="name-label" 
     - id="email-label" 
-    - id="number-label"
+    - id="age-label"
 
 # Historia de Usuario #11:
 Para los campos de ingreso de nombre, correo electrónico y número, puedo ver un texto de marcador de posición (placeholder) que me da una descripción o instrucciones para cada campo.
