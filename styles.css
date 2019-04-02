@@ -1,1 +1,13 @@
 
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    background-size: 100%;
+    background-color: #141414; 
+}
