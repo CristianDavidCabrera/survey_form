@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1 id="title">Survey Form</h1>
     <p>We need to Know you!!</p>
     <form id="survey-form" method="get" action="">
-        <div>
-            <label id="name-label" for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required>
-        </div>
-        <div>
-            <label id="email-label" for="name">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
-        </div>
-        <div>
-            <label id="age-label" for="age">Age:</label>
-            <input type="number" name="age" id="age" placeholder="Age" min="1" max="125" required>
-        </div>
+      <div>
+        <label id="name-label" for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div>
+        <label id="email-label" for="name">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div>
+        <label id="age-label" for="age">Age:</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Age"
+          min="1"
+          max="125"
+          required
+        />
+      </div>
+      <div>
+        <label id="ocupation-label" for="dropdown"
+          >What is your current occupation?</label
+        >
+        <select name="occupation" id="dropdown">
+          <option disabled value="">Select an option</option>
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
     </form>
-</body>
+  </body>
 </html>
