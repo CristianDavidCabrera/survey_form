@@ -10,14 +10,14 @@
   <body>
     <header>
       <h1 id="title">Survey Form</h1>
-      <p>We need to Know you!!</p>
+      <p id="description">We need to Know you!!</p>
     </header>
-    <main>
+    <main id="container">
       <form id="survey-form" method="get" action="http://www.example.com/example.html">
-          <div class="labels-row">
+          <div class="labels-columns">
             <label id="name-label" for="name">Name:</label>
           </div>
-          <div class="inputs-row">
+          <div class="inputs-columns">
             <input
               type="text"
               name="name"
@@ -26,10 +26,10 @@
               required
             />
           </div>
-          <div class="labels-row">
+          <div class="labels-columns">
             <label id="email-label" for="name">Email:</label>
           </div>
-          <div class="inputs-row">
+          <div class="inputs-columns">
             <input
               type="email"
               name="email"
@@ -38,24 +38,24 @@
               required
             />
           </div>
-          <div class="labels-row">
-            <label id="age-label" for="age">Age:</label>
+          <div class="labels-columns">
+            <label id="age-label" for="number">Age:</label>
           </div>
-          <div class="inputs-row">
+          <div class="inputs-columns">
             <input
               type="number"
               name="age"
-              id="age"
+              id="number"
               placeholder="Age"
               min="1"
               max="125"
               required
             />
           </div>
-          <div class="labels-row">
+          <div class="labels-columns">
             <label id="ocupation-label" for="dropdown">What is your current occupation?</label>
           </div>
-          <div class="inputs-row">
+          <div class="inputs-columns">
             <select name="occupation" id="dropdown">
               <option disabled value="">Select an option</option>
               <option value="student">Student</option>
@@ -64,18 +64,18 @@
               <option value="other">Other</option>
             </select>
           </div>
-          <div class="labels-row">
+          <div class="labels-columns">
             <p>Gender</p>
           </div>
-          <div class="inputs-row">
+          <div class="inputs-columns">
             <input type="radio" name="gender" value="male" />Male<br />
             <input type="radio" name="gender" value="female" />Female<br />
             <input type="radio" name="gender" value="other" />Other<br />
           </div>
-          <div class="labels-row">
+          <div class="labels-columns">
             <p>Technical skills</p>
           </div>
-          <div class="inputs-row">
+          <div class="inputs-columns">
             <input type="checkbox" name="skill__1" value="html" checked />HTML<br />
             <input type="checkbox" name="skill__2" value="css" />CSS<br />
             <input type="checkbox" name="skill__3" value="javascript" /> JavaScript<br />
@@ -90,11 +90,11 @@
             <input type="checkbox" name="skill__12" value="mysql" />MySQL<br />
             <input type="checkbox" name="skill__13" value="mondodb" />MongoDB<br />
           </div>
-          <div class="labels-row">
+          <div class="labels-columns">
               <p>Other aditional information</p>
           </div>
-          <div class="inputs-row">
-            <textarea name="comment" id="comments" cols="30" rows="10" placeholder="write your comment here."></textarea>
+          <div class="inputs-columns">
+            <textarea name="comment" id="comments" cols="30" columnss="10" placeholder="write your comment here."></textarea>
           </div>
           <div>
             <button id="submit" type="submit">Submit</button>
