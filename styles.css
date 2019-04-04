@@ -10,4 +10,59 @@ body {
     font-family: Helvetica, sans-serif;
     background-size: 100%;
     background-color: #141414; 
+    margin: 2rem;
+}
+
+/*Page title style*/
+header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: auto;
+}
+header p {
+    color: yellow;
+}
+
+/*Inputs and labels style*/
+.labels-row {
+    text-align: left;
+    width: auto;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 0.7rem;
+}
+.labels-row p {
+    margin-bottom: 1rem ;
+}
+.inputs-row {
+    display: block;
+    width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+#dropdown {
+    width: 100%;
+    background-color: #FFD0AA;
+    border-radius: 4px;
+}
+#comments {
+    width: inherit;
+    background-color: #FFD0AA;
+    border-radius: 4px;
+}
+
+/*Button*/
+#submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    border: 0px solid;
+  }
+#submit:hover {
+    background-color: red;
 }
