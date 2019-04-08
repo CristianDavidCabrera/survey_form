@@ -64,15 +64,6 @@ Dentro del elemento de formulario, se me presenta un área de texto al final par
 ## Historia de Usuario #16:
 Dentro del elemento de formulario, se me presenta un botón con id = "submit" para enviar todas mis entradas.
 
-## Consejos
-- Puedes construir tu proyecto por medio de este CodePen. O puede usar este enlace CDN para ejecutar las pruebas en el entorno que desee:
-
-    https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
-
-- Una vez que haya terminado, envíe la URL a su proyecto de trabajo con todas las pruebas aprobadas.
-
-- Recuerda usar el método de Lectura-Búsqueda-Pregunta si te atascas.
-
 ## Recursos del proyecto
 
 [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
