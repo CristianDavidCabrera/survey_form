@@ -16,54 +16,55 @@
 ## Historia de Usuario #1:
 Puedo ver un título con id ="title", en un elemento h1.
 
-# Historia de Usuario #2:
+## Historia de Usuario #2:
 Puedo ver una breve explicación con id ="description", en un elemento p.
 
-# Historia de Usuario #3:
+## Historia de Usuario #3:
 Puedo ver un formulario con id = "survey-form".
 
-# Historia de Usuario #4:
+## Historia de Usuario #4:
 Dentro del elemento de formulario, debo ingresar mi nombre en un campo con id = "name".
 
-# Historia de Usuario #5:
+## Historia de Usuario #5:
 Dentro del elemento del formulario, debo ingresar un correo electrónico en un campo con id = "email".
 
-# Historia de Usuario #6:
+## Historia de Usuario #6:
 Si ingreso un correo electrónico que no tiene el formato correcto, veré un error de validación de HTML5.
 
-# Historia de Usuario #7:
+## Historia de Usuario #7:
 Dentro del formulario, puedo ingresar un número en un campo con id = "number".
 
-# Historia de Usuario #8:
+## Historia de Usuario #8:
 Si ingreso números que no son números en la entrada del número, veré un error de validación de HTML5.
 
-# Historia de Usuario #9:
+## Historia de Usuario #9:
 Si ingreso números fuera del rango de la entrada de números, que están definidos por los atributos mínimo y máximo, veré un error de validación de HTML5.
 
-# Historia de Usuario #10:
+## Historia de Usuario #10:
 Para los campos de ingreso de nombre, correo electrónico y número dentro del formulario, puedo ver las etiquetas correspondientes que describen el propósito de cada campo con los siguientes identificadores: 
     - id="name-label" 
     - id="email-label" 
     - id="age-label"
 
-# Historia de Usuario #11:
+## Historia de Usuario #11:
 Para los campos de ingreso de nombre, correo electrónico y número, puedo ver un texto de marcador de posición (placeholder) que me da una descripción o instrucciones para cada campo.
 
-# Historia de Usuario #12:
+## Historia de Usuario #12:
 Dentro del elemento del formulario, puedo seleccionar una opción de un menú desplegable que tiene un id="dropdown".
 
-# Historia de Usuario #13:
+## Historia de Usuario #13:
 Dentro del elemento de formulario, puedo seleccionar un campo de uno o más grupos de botones de radio. Cada grupo debe agruparse usando el atributo de name.
 
-# Historia de Usuario #14:
+## Historia de Usuario #14:
 Dentro del elemento de formulario, puedo seleccionar varios campos de una serie de casillas de verificación (checkboxes), cada una de las cuales debe tener un atributo de valor.
 
-# Historia de Usuario #15:
+## Historia de Usuario #15:
 Dentro del elemento de formulario, se me presenta un área de texto al final para comentarios adicionales.
 
-# Historia de Usuario #16:
+## Historia de Usuario #16:
 Dentro del elemento de formulario, se me presenta un botón con id = "submit" para enviar todas mis entradas.
 
+## Consejos
 - Puedes construir tu proyecto por medio de este CodePen. O puede usar este enlace CDN para ejecutar las pruebas en el entorno que desee:
 
     https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
