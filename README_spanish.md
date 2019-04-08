@@ -1,6 +1,6 @@
-#Responsive Web Design Projects - Crear un formulario de encuesta
+# Responsive Web Design Projects - Crear un formulario de encuesta
 
-##Objetivo:
+## Objetivo:
 - Cree una aplicación CodePen.io que sea funcionalmente similar a esto:  https://codepen.io/freeCodeCamp/full/VPaoNP.
 
 - Cumplir las siguientes historias de usuario y obtener todas las pruebas para pasar. Dale tu propio estilo personal.
@@ -13,7 +13,7 @@
 
 - Aceptaremos e intentaremos solucionar todos los informes de problemas que utilizan las tecnologías sugeridas para este proyecto. ¡Feliz codificación!
 
-# Historia de Usuario #1:
+## Historia de Usuario #1:
 Puedo ver un título con id ="title", en un elemento h1.
 
 # Historia de Usuario #2:
